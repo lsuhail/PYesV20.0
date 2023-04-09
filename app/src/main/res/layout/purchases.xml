@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/l_background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="90"
+        android:background="@drawable/l_trans"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <ImageView
+            android:id="@+id/im_blogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:alpha="0.2"
+            android:background="@drawable/ic_blogo_1"
+            android:contentDescription="@string/app_name" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:weightSum="100"
+            tools:ignore="UselessParent">
+
+            <include
+                android:id="@+id/header_id"
+                layout="@layout/header"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                android:layout_weight="30" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="60"
+                android:orientation="vertical">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fadeScrollbars="false">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:id="@+id/tv_pos_code"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/pos_code"
+                            android:textColor="@color/color_label"
+                            android:textSize="@dimen/normal_font_size" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/rounded_w"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:weightSum="100">
+
+                            <EditText
+                                android:id="@+id/ed_pos_code"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_margin="5dp"
+                                android:layout_weight="80"
+                                android:background="@drawable/rounded_w"
+                                android:drawableStart="@drawable/text"
+                                android:drawableLeft="@drawable/text"
+                                android:gravity="center"
+                                android:importantForAutofill="no"
+                                android:inputType="text"
+                                android:textColor="@color/color_edit"
+                                android:textSize="@dimen/normal_font_size"
+                                tools:ignore="LabelFor" />
+
+                            <ImageView
+                                android:id="@+id/b_qr_scan"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_margin="1dp"
+                                android:layout_weight="20"
+                                android:contentDescription="@string/pos_qr_scan"
+                                android:gravity="center"
+                                android:src="@drawable/qr_code"
+                                android:textColor="@color/color_background"
+                                android:textSize="@dimen/small_font_size" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tv_pos_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/pos_name"
+                            android:textColor="@color/color_label"
+                            android:textSize="@dimen/normal_font_size" />
+
+                        <EditText
+                            android:id="@+id/ed_pos_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="5dp"
+                            android:drawableStart="@drawable/text"
+                            android:drawableLeft="@drawable/text"
+                            android:enabled="false"
+                            android:gravity="center"
+                            android:importantForAutofill="no"
+                            android:inputType="text"
+                            android:textColor="@color/color_background"
+                            android:textSize="@dimen/normal_font_size"
+                            tools:ignore="LabelFor" />
+
+
+                        <TextView
+                            android:id="@+id/tv_pos_amount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="@string/amount"
+                            android:textColor="@color/color_label"
+                            android:textSize="@dimen/normal_font_size" />
+
+                        <EditText
+                            android:id="@+id/ed_pos_amount"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/rounded_w"
+                            android:drawableStart="@drawable/amount"
+                            android:drawableLeft="@drawable/amount"
+                            android:gravity="center"
+                            android:importantForAutofill="no"
+                            android:inputType="number"
+                            android:textColor="@color/color_edit"
+                            android:textSize="@dimen/normal_font_size"
+                            tools:ignore="LabelFor" />
+
+                        <!--<TextView
+                            android:id="@+id/tv_pos_password"
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="20dp"
+                            android:text="@string/password"
+                            android:textColor="@color/color_label"
+                            android:textSize="@dimen/normal_font_size" />
+
+                        <EditText
+                            android:id="@+id/ed_pos_password"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/rounded_w"
+                            android:drawableStart="@drawable/password"
+                            android:drawableLeft="@drawable/password"
+                            android:gravity="center"
+                            android:importantForAutofill="no"
+                            android:inputType="textPassword"
+                            android:textColor="@color/color_edit"
+                            android:textSize="@dimen/normal_font_size"
+                            tools:ignore="LabelFor" />
+                            -->
+
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+
+            <include
+                android:id="@+id/footer_id"
+                layout="@layout/footer"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                android:layout_weight="10" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    android:layout_weight="10"
+    android:background="@drawable/l_background"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/b_ok"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_circle"
+        android:drawableEnd="@drawable/ok"
+        android:drawableRight="@drawable/ok"
+        android:text="@string/okey"
+        android:textColor="@color/color_background"
+        android:textSize="@dimen/small_font_size" />
+
+    <Button
+        android:id="@+id/b_favorite_add"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_circle"
+        android:drawableEnd="@drawable/favorite_w"
+        android:drawableRight="@drawable/favorite_w"
+        android:text="@string/favorite_add"
+        android:textColor="@color/color_background"
+        android:textSize="@dimen/small_font_size" />
+
+    <Button
+        android:id="@+id/b_cancel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_circle"
+        android:drawableEnd="@drawable/back_w"
+        android:drawableRight="@drawable/back_w"
+        android:text="@string/back"
+        android:textColor="@color/color_background"
+        android:textSize="@dimen/small_font_size" />
+</LinearLayout>

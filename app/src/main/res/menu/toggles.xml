@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/toggle_left" android:checked="true" android:title="@string/north_regoin" />
+    <item android:id="@+id/toggle_right" android:title="@string/south_regoin" />
+</menu>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:theme="@style/AppTheme"
+    >
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        style="@style/TextInputLayoutHintText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColorHint="@color/color_label"
+        app:boxStrokeColor="@color/color_gold"
+        app:hintTextAppearance="@style/TextLabel"
+        android:minHeight="30dp"
+        android:layout_margin="10dp"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/color_gold">
+
+        <EditText
+            android:id="@+id/ed_login_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableStart="@drawable/password"
+            android:drawableLeft="@drawable/password"
+            android:lines="1"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textColorHint="@color/color_label"
+            android:textSize="@dimen/normal_font_size" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        style="@style/TextInputLayoutHintText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColorHint="@color/color_label"
+        app:boxStrokeColor="@color/color_gold"
+        app:hintTextAppearance="@style/TextLabel"
+        android:minHeight="30dp"
+        android:layout_margin="10dp"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/color_gold">
+
+        <EditText
+            android:id="@+id/ed_confirm_login_password"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableStart="@drawable/password"
+            android:drawableLeft="@drawable/password"
+            android:lines="1"
+            android:hint="@string/confirm_password_hint"
+            android:textAlignment="center"
+            android:inputType="textPassword"
+            android:textSize="@dimen/normal_font_size"
+            android:textColor="#000"
+            android:textColorHint="@color/color_label" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+    <TextView
+        android:id="@+id/tv_login_verification_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:gravity="start"
+        android:padding="1dp"
+        android:text="@string/verification_code"
+        android:textColor="@color/color_label"
+        android:textSize="@dimen/normal_font_size" />
+
+    <EditText
+        android:id="@+id/ed_login_verification_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@drawable/rounded_w"
+        android:drawableStart="@drawable/verified"
+        android:drawableLeft="@drawable/verified"
+        android:gravity="center"
+        android:hint="@string/verification_code_hint"
+        android:padding="1dp"
+        android:textColor="@color/color_edit"
+        android:textColorHint="@color/color_grey"
+        android:textSize="@dimen/normal_font_size" />
+
+</LinearLayout>

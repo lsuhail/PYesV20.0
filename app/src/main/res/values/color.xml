@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="adslLight">#bc2196f3</color>
+    <color name="adslPrimary">#ff2196f3</color>
+    <color name="deep_purple_300">#ff9575cd</color>
+    <color name="deep_purple_700">#ff512da8</color>
+    <color name="sabaLight">#bf99ccf8</color>
+    <color name="sabaPrimary">#ff0d47a1</color>
+    <color name="ymAcent">#ffc51162</color>
+    <color name="ymDark">#ffc51162</color>
+    <color name="ymLight">#fff199a3</color>
+    <color name="ymPrimary">#fff66b7b</color>
+    <color name="ymSecond">#ffdcb182</color>
+    <color name="color_edit">#000000</color>
+    <color name="color_label">#0DB4C3</color>
+    <color name="color_turquoise">#0DB4C3</color>
+    <color name="color_trans">#00000000</color>
+    <color name="color_background">#ffffff</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_black">#000000</color>
+    <color name="color_grey">#C0C0C0</color>
+    <color name="color_grey2">#d6d1cd</color>
+    <color name="color_grey5">#fff2f2f2</color>
+    <color name="color_grey10">#ffe6e6e6</color>
+
+    <color name="color_mainmenu">#5286DAE7</color>
+    <color name="color_grey3">#F6F0F0</color>
+    <color name="color_dturquoise">#52b3d9</color>
+    <color name="color_red">#D00729</color>
+    <color name="color_lightred">#fb5555</color>
+    <color name="color_blue">#0069B4</color>
+    <color name="color_olive">#4f328a</color>
+    <color name="color_gold">#FFA03A</color>
+    <!--<color name="color_gold3">#FB8e42</color>
+    <color name="color_gold">#FF9042</color>-->
+    <color name="color_orange">#FFA03A</color>
+    <color name="color_yellow">#FFFF00</color>
+    <color name="color_green">#07830C</color>
+    <color name="color_slitegray">#708090</color>
+    <color name="color_test">#07091F</color>
+</resources>

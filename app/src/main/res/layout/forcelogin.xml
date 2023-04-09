@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="300dp"
+    android:background="@color/color_trans"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="90"
+        android:background="@drawable/l_background"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <ImageView
+            android:id="@+id/im_blogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:alpha="0.2"
+            android:background="@drawable/ic_blogo_1"
+            android:contentDescription="@string/app_name" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="2dp"
+                android:layout_weight="20"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/color_white"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/pyeslogo_r" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_forcelogin_title"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="20"
+                android:gravity="center"
+                android:text="@string/forcelogin_title"
+                android:textColor="@color/color_turquoise"
+                android:textSize="@dimen/title_font_size" />
+
+            <TextView
+                android:id="@+id/tv_forcelogin_password"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="2dp"
+                android:layout_weight="10"
+                android:gravity="center_vertical"
+                android:text="@string/password"
+                android:textColor="@color/color_turquoise"
+                android:textSize="@dimen/normal_font_size" />
+
+            <EditText
+                android:id="@+id/ed_forcelogin_password"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:layout_weight="10"
+                android:background="@drawable/rounded_w"
+                android:drawableStart="@drawable/password"
+                android:drawableLeft="@drawable/password"
+                android:gravity="center"
+                android:hint="@string/password"
+                android:textColor="@color/color_edit"
+                android:textSize="@dimen/normal_font_size" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="2dp"
+                android:layout_weight="20"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/b_forcelogin_login"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_circle"
+                    android:drawableEnd="@drawable/login"
+                    android:drawableRight="@drawable/login"
+                    android:text="@string/okey"
+                    android:textColor="@color/color_background"
+                    android:textSize="@dimen/small_font_size" />
+
+                <Button
+                    android:id="@+id/b_forcelogin_logout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_circle"
+                    android:drawableEnd="@drawable/logout"
+                    android:drawableRight="@drawable/logout"
+                    android:text="@string/exit_label"
+                    android:textColor="@color/color_background"
+                    android:textSize="@dimen/small_font_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="20"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tv_fingerprint_note"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:textColor="@color/color_black"
+                    android:textSize="@dimen/normal_font_size" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

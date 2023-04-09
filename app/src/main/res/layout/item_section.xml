@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardCornerRadius="6dp" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Subhead" android:textStyle="bold" android:textColor="@color/color_white" android:id="@+id/title_section" android:background="@color/color_gold" android:padding="6dp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Section Title" android:textAlignment="center" />
+</androidx.cardview.widget.CardView>

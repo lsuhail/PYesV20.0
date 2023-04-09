@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_gravity="center_vertical"
+    android:theme="@style/AppTheme"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/lay_top"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:layout_weight="50"
+        android:background="@drawable/l_trans"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadeScrollbars="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+
+
+                <TextView
+                    android:id="@+id/tv_entity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5dp"
+                    android:gravity="start"
+                    android:padding="1dp"
+                    android:text="@string/entity_label"
+                    android:textColor="@color/color_label"
+                    android:textSize="@dimen/normal_font_size" />
+
+                <Spinner
+                    android:id="@+id/sp_entity"
+                    style="@style/Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_margin="11dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+
+                    android:spinnerMode="dropdown"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/normal_font_size"
+                    android:theme="@style/Spinner" />
+
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    style="@style/TextInputLayoutHintText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:textColorHint="@color/color_label"
+                    app:boxStrokeColor="@color/color_gold"
+                    app:hintTextAppearance="@style/TextLabel"
+                    android:minHeight="30dp"
+                    android:layout_margin="10dp"
+
+                    app:passwordToggleTint="@color/color_gold">
+
+                    <EditText
+                        android:id="@+id/ed_login_client_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:drawableStart="@drawable/client"
+                        android:drawableLeft="@drawable/client"
+                        android:hint="@string/client_name_label"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:padding="8dp"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textColorHint="@color/color_label"
+                        android:textSize="@dimen/normal_font_size" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    style="@style/TextInputLayoutHintText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:textColorHint="@color/color_label"
+                    app:boxStrokeColor="@color/color_gold"
+                    app:hintTextAppearance="@style/TextLabel"
+                    android:minHeight="30dp"
+                    android:layout_margin="10dp"
+
+                    app:passwordToggleTint="@color/color_gold">
+
+                    <EditText
+                        android:id="@+id/ed_login_mobile_no"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:drawableStart="@drawable/mobile"
+                        android:drawableLeft="@drawable/mobile"
+                        android:hint="@string/phone_no_label"
+                        android:inputType="text"
+                        android:lines="1"
+                        android:padding="8dp"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textColorHint="@color/color_label"
+                        android:textSize="@dimen/normal_font_size" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    style="@style/TextInputLayoutHintText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:textColorHint="@color/color_label"
+                    app:boxStrokeColor="@color/color_gold"
+                    app:hintTextAppearance="@style/TextLabel"
+                    android:minHeight="30dp"
+                    android:layout_margin="10dp"
+
+                    app:passwordToggleTint="@color/color_gold">
+
+                    <EditText
+                        android:id="@+id/ed_login_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:drawableStart="@drawable/email"
+                        android:drawableLeft="@drawable/email"
+                        android:hint="@string/email_label"
+                        android:inputType="textEmailAddress"
+                        android:lines="1"
+                        android:padding="8dp"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textColorHint="@color/color_label"
+                        android:textSize="@dimen/normal_font_size" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

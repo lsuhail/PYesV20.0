@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:layout_gravity="center"
+    android:background="@drawable/l_turquoise"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="2dp"
+        android:layout_weight="25"
+        android:background="@color/color_white"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_weight="15"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/pyeslogo_r" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="85"
+            android:gravity="center"
+            android:padding="1dp"
+            android:text="Message Title"
+            android:textColor="@color/color_gold"
+            android:textSize="@dimen/normal_font_size" />
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="2dp"
+        android:layout_weight="50"
+        android:fadeScrollbars="false"
+        android:fillViewport="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvMessage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="text"
+                android:textColor="@color/color_edit"
+                android:textSize="@dimen/normal_font_size" />
+        </LinearLayout>
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="2dp"
+        android:layout_weight="25"
+        android:background="@color/color_white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_circle"
+            android:drawableEnd="@drawable/okey"
+            android:drawableRight="@drawable/okey"
+            android:text="@string/okey"
+            android:textColor="@color/color_background"
+            android:textSize="@dimen/normal_font_size" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_circle"
+            android:drawableEnd="@drawable/back_w"
+            android:drawableRight="@drawable/back_w"
+            android:text="@string/cancel"
+            android:textColor="@color/color_background"
+            android:textSize="@dimen/normal_font_size" />
+
+
+    </LinearLayout>
+</LinearLayout>

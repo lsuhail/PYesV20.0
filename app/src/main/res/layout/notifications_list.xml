@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_id"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/l_orange"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:id="@+id/ll_1_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <LinearLayout
+            android:id="@+id/ll_2_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="85"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/note_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textColor="@color/color_slitegray"
+                android:textSize="@dimen/small_font_size" />
+
+            <TextView
+                android:id="@+id/note_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textColor="@color/color_label"
+                android:textSize="@dimen/normal_font_size" />
+
+            <TextView
+                android:id="@+id/note_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dip"
+                android:gravity="start"
+                android:maxLines="3"
+                android:textColor="@color/color_edit"
+                android:textSize="@dimen/small_font_size" />
+
+            <TextView
+                android:id="@+id/note_datetime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dip"
+                android:gravity="start"
+                android:textColor="@color/color_red"
+                android:textSize="@dimen/small_font_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_3_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="15"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/note_delete"
+                android:layout_width="24sp"
+                android:layout_height="24sp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_margin="2dp"
+                android:background="@color/color_green"
+                android:contentDescription="@string/note_del"
+                android:focusable="false"
+                android:src="@drawable/delete"
+                android:textColor="@color/color_edit"
+                android:textSize="@dimen/small_font_size" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout> 

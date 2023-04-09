@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@+id/lyt_parent" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/color_white" app:cardCornerRadius="5.0dip" app:cardUseCompatPadding="true" app:contentPadding="10.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="rtl">
+        <LinearLayout android:orientation="vertical" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0">
+            <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textColor="@color/color_grey" android:layout_gravity="start" android:id="@+id/BName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="People Name" android:layout_marginStart="16dp" android:layout_marginEnd="10dp" />
+            <TextView android:textAppearance="@style/TextAppearance.AppCompat.Small" android:textColor="@color/color_grey3" android:layout_gravity="start" android:id="@+id/BDescription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_medium" android:layout_marginRight="10dp" android:text="" android:layout_marginEnd="10dp" />
+        </LinearLayout>
+        <View android:layout_width="@dimen/spacing_medium" android:layout_height="0.0dip" />
+        <com.nightonke.boommenu.BoomMenuButton android:layout_gravity="center" android:id="@+id/BBtnSubmit" android:background="@drawable/l_background" android:layout_width="wrap_content" android:layout_height="wrap_content" app:bmb_buttonEnum="ham" app:bmb_highlightedColor="@android:color/darker_gray" app:bmb_inList="true" app:bmb_normalColor="@android:color/white" app:bmb_pieceCornerRadius="2.0dip">
+            <TextView android:textSize="10.0sp" android:textStyle="bold" android:textColor="@android:color/black" android:gravity="center" android:layout_gravity="center" android:layout_width="40.0dip" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@null" />
+        </com.nightonke.boommenu.BoomMenuButton>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

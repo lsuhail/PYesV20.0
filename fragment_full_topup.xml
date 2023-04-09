@@ -1,0 +1,81 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/l_background"
+    android:fillViewport="true"
+    android:padding="6.0dip">
+    <!--
+        <LinearLayout
+            android:id="@+id/TopUpLayoutPage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <include layout="@layout/sno_layout" />
+
+            <TextView
+                android:id="@+id/tvContactName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/color_background"
+                android:visibility="gone" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="8.0dip"
+                android:background="@drawable/l_background" />
+
+
+            <CheckBox
+                android:id="@+id/rdAdvancePaymentNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layoutDirection="rtl"
+                android:text="@string/withoutcredit"
+                android:visibility="gone" />
+
+            <include layout="@layout/yemen_mobile_v2" />
+
+            <include layout="@layout/bundle_topup_view" />
+
+            <include layout="@layout/post_layout" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="16.0dip" />
+
+            <com.dd.processbutton.iml.ActionProcessButton
+                android:id="@+id/btnSubmit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16.0dip"
+                android:text="@string/bill_payment"
+                android:textColor="#5D4037"
+                android:textSize="18.0sp"
+                custom:pb_colorComplete="@color/green_complete"
+                custom:pb_colorError="@color/red_error"
+                custom:pb_colorNormal="@color/color_gold"
+                custom:pb_colorPressed="#fff199a3"
+                custom:pb_colorProgress="@color/purple_progress"
+                custom:pb_textComplete="Success"
+                custom:pb_textError="Error"
+                custom:pb_textProgress="@string/request_progress" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingBottom="10.0dip"
+                android:scrollbars="vertical"
+                android:scrollingCache="true"
+                custom:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        </LinearLayout>-->
+    </androidx.core.widget.NestedScrollView>

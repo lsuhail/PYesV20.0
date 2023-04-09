@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@color/color_trans"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/l_turquoise"
+        android:orientation="vertical"
+        android:weightSum="6">
+
+        <TextView
+            android:id="@+id/tv_confirmation_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/title_font_size" />
+
+        <TextView
+            android:id="@+id/tv_confirmation_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:text="@string/confirmation_message_label"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/normal_font_size" />
+
+        <EditText
+            android:id="@+id/ed_confirmation_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@color/color_white"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:textColor="@color/color_turquoise"
+            android:textSize="@dimen/normal_font_size" />
+
+        <TextView
+            android:id="@+id/tv_confirmation_code"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:text="@string/confirmation_code_label"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/normal_font_size" />
+
+        <EditText
+            android:id="@+id/ed_confirmation_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@color/color_white"
+            android:gravity="center"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:textColor="@color/color_turquoise"
+            android:textSize="@dimen/normal_font_size"
+            tools:ignore="LabelFor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/b_confirmation_ok"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_circle"
+                android:drawableEnd="@drawable/ok"
+                android:drawableRight="@drawable/ok"
+                android:text="@string/okey"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/normal_font_size" />
+
+            <Button
+                android:id="@+id/b_confirmation_cancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_circle"
+                android:drawableEnd="@drawable/back_w"
+                android:drawableRight="@drawable/back_w"
+                android:text="@string/cancel"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/normal_font_size" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="south_regoin">الجنوب</string>
+    <string name="north_regoin">الشمال</string>
+    <string name="app_name">بيس</string>
+    <string name="free_phone">التلفون المجاني:8000006</string>
+    <string name="free_phone_after_update">الاتصال مجانا بخدمة العملاء</string>
+    <string name="whats_app">واتس أب : 967778559009+</string>
+    <string name="whats_app_after_update">واتس أب</string>
+    <string name="app_notifications">ملاحظة من النظام</string>
+    <string name="country_label">الدولة</string>
+    <string name="entity_label">الجهة</string>
+    <string name="language_label">اللغه</string>
+    <string name="user_hello">مرحبا</string>
+    <string name="user_last_log_in">آخر دخول في :</string>
+    <string name="account_balance">الرصيد</string>
+    <string name="main_services">الخدمات الرئيسية</string>
+
+    <string name="open">فتح</string>
+    <string name="save">حفظ</string>
+    <string name="edit">تعديل</string>
+    <string name="close">إغلاق</string>
+
+    <string name="database_create_error">خطأ في انشاء قاعدة البيانات</string>
+    <string name="repayment_InternetOrBalance">حدد    >></string>
+    <string name="repayment_phone_title">سداد إشتراك التلفون الثابت</string>
+    <string name="phone_line">التلفون الثابت</string>
+    <string name="repayment_internet_title">سداد إشتراك الانترنت</string>
+    <string name="repayment_adsl_title">سداد إشتراك الانترنت</string>
+    <string name="repayment_yemenmobile_title">سداد إشتراك يمن موبايل</string>
+    <string name="repayment_sabafon_title">سداد إشتراك سبأفون</string>
+    <string name="repayment_mtn_title">سداد إشتراك إم تي إن</string>
+    <string name="repayment_y_title">سداد إشتراك واي</string>
+
+    <string name="tabIndicator_balance_Payment">سداد رصيد</string>
+    <string name="tabIndicator_bouquet_Payment">سداد باقات</string>
+    <string name="tabIndicator_qurey">استعلام</string>
+
+    <string name="lastlogin">آخر دخول في:</string>
+    <string name="forcelogin_title">تأكيد كلمة السر</string>
+    <string name="msg_curr_query">الاستعلام عن اسعار الصرف</string>
+    <string name="msg_account_balance_query">الاستعلام عن رصيد الحساب</string>
+    <string name="msg_transfer_money">تحويل أموال</string>
+    <string name="msg_open_account">فتح حساب</string>
+    <string name="creat_account">حساب جديد</string>
+    <string name="dont_have_account">او قم بالضغط هنا لأنشاء</string>
+    <string name="msg_statement_list">كشف حساب</string>
+    <string name="msg_water_bill_payment">سداد فاتورة المياه</string>
+    <string name="msg_electricity_bill_payment">سداد فاتورة الكهرباء</string>
+    <string name="msg_phone_bill_payment">سداد فاتورة التلفون</string>
+    <string name="msg_telcom_bill_payment">سداد اشتراك التلفون المحمول</string>
+    <string name="msg_internet_bill_payment">سداد اشتراك الانترنت</string>
+    <string name="bill_payment"> سداد الفاتورة</string>
+
+    <string name="msg_change_password">تغيير كلمة السر</string>
+    <string name="msg_change_email">تغيير البريد الالكتروني</string>
+    <string name="msg_add_account">اضافة حساب جديد</string>
+    <string name="msg_from">من</string>
+    <string name="msg_for">لـ</string>
+    <string name="msg_to">الى</string>
+    <string name="msg_or">أو</string>
+    <string name="msg_and">و</string>
+    <string name="msg_graterthan">أكبر من</string>
+    <string name="msg_lessthan">أقل من</string>
+    <string name="msg_bill_no">رقم#</string>
+    <string name="msg_check_account">التأكد من ان الحساب او كلمة السر صحيحه.</string>
+
+    <string name="open_account_title">طلب فتح حساب (بيس)</string>
+    <string name="birth_place_label">مكان الميلاد</string>
+    <string name="birth_date_label">تاريخ الميلاد</string>
+
+    <string name="error_no_of_part">الإسم غير مكتمل!</string>
+    <string name="no_of_part">يجب أن يكون مكون من</string>
+    <string name="parts">مقطع</string>
+    <string name="at_least">على الأقل</string>
+
+    <string name="value_not_empty">يجب ادخال قيمة الحقل</string>
+    <string name="value_condition">يجب ان تكون قيمة </string>
+    <string name="condition_format_error">صيغة الشرط غير صحيحة</string>
+    <string name="phone_length_and_start_with_zero">يجب ان يبدأ رقم التلفون بـ 0 ويكون طوله 8 ارقام</string>
+    <string name="phone_or_internet_error">يجب ان تحدد سداد تلفون ثابت او انترنت</string>
+    <string name="mobile_length_and_start_with_zero">يجب ان يبدأ رقم الموبايل بـ 7 ويكون طوله 9 ارقام</string>
+
+    <string name="entered_data_error">هناك خطأ في البيانات المدخلة ،قم بمراجعتها واعد المحاولة.</string>
+
+    <string name="missing_info">يجب ادخال جميع البيانات</string>
+    <string name="email_error">البريد المدخل غير صحيح</string>
+    <string name="account_services">خدمات الحسابات</string>
+    <string name="menu">القائمة</string>
+    <string name="our_services">خدماتنا</string>
+    <string name="pyes_services">الخدمات الرئيسية</string>
+    <string name="curr_query">اسعار صرف العملات</string>
+    <string name="balance_query">رصيد حساب</string>
+    <string name="transfer_money_to_another_account">تحويل أموال من حساب الى حساب اخر</string>
+    <string name="transfer_money_to_cash">تحويل أموال من حساب الى حوالة</string>
+    <string name="shopping">سداد مشتريات</string>
+    <string name="cash_payment">مدفوعات نقديه</string>
+    <string name="statment_list">كشف حساب</string>
+
+    <string name="help_screen">شرح لمحتويات النظام</string>
+    <string name="another_services">خدمات أخرى</string>
+    <string name="backup">نسخ احتياطي</string>
+    <string name="payment">سداد اشتراكات</string>
+    <string name="payment_water">سداد فاتورة المياه</string>
+    <string name="payment_electricity">سداد فاتورة الكهرباء</string>
+
+
+    <string name="prepaid">دفع مسبق</string>
+    <string name="postpaid">فوترة</string>
+    <string name="internet_bouquet">باقات نت</string>
+    <string name="balance">رصيد</string>
+    <string name="telecom_balance_query">الاستعلام عن الرصيد</string>
+    <string name="subscription_type">نوع الاشتراك</string>
+    <string name="linetype">نوع الخط</string>
+    <string name="sim">شريحه</string>
+    <string name="programmable">برمجة</string>
+    <string name="modem">مودم</string>
+    <string name="advantages">مزايا</string>
+    <string name="gifts">هدايا</string>
+    <string name="withoutcredit">بدون سلفة</string>
+    <string name="withcredit">بسلفة</string>
+    <string name="bouquets">الباقات</string>
+
+    <string name="service_type">نوع الطلب</string>
+    <string name="bouquet_type">نوع الباقة</string>
+    <string name="advancepayment_status">حالة السلفة</string>
+    <string name="bouquet_dtl">الباقة</string>
+
+    <string name="amount_bouquet_offer">فئات المبلغ</string>
+    <string name="adsl_bouquet_offer">باقات الانترنت</string>
+    <string name="adsl">الانترنت</string>
+    <string name="billing_bouquet_offer">باقات فوترة</string>
+    <string name="payment_mobile">سداد اشتراك التلفون المحمول</string>
+    <string name="payment_mobile_units">شراء وحدات شحن فوري</string>
+    <string name="units">وحدات</string>
+
+
+
+    <string name="contact_pick_text">استيراد جاهت الاتصال</string>
+    <string name="contact_name_text">اسم جهة الاتصال</string>
+
+
+
+    <string name="exit">خروج</string>
+    <string name="refresh">تنزيل الخدمات</string>
+    <string name="contactrefresh">إضافة جهات الاتصال</string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="back">العوده</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="okey">موافق</string>
+    <string name="delete">حذف</string>
+
+    <string name="more">مزيد</string>
+
+    <string name="favorite_show">المفضلة</string>
+    <string name="favorite_title">قائمة المفضلة</string>
+    <string name="favorite_add">+المفضلة</string>
+    <string name="favorite_del">حذف المفضلة</string>
+    <string name="download_and_install_pyes">تحديث نظام بيس</string>
+    <string name="pyes_download_progress">جاري تنزيل نظام بيس...</string>
+    <string name="to_communicate">للتواصل:</string>
+    <string name="terms_of_use">شروط الإستخدام | سياسة الخصوصة</string>
+    <string name="favorite_added_success">تم الاضافة</string>
+    <string name="favorite_added_not_success">لم يتم الاضافة</string>
+    <string name="favorite_added_before">هذه الخدمة تم إضافتها إلى المفضلة من قبل</string>
+    <string name="autoComplete_del">حذف الاكمال التلقائي</string>
+    <string name="delete_success">تم الحذف</string>
+    <string name="delete_not_success">لم يتم الحذف</string>
+
+    <string name="note_player_id_err">رقم المستخدم في نظام الاشعارات غير موجود</string>
+    <string name="please_wait">يرجى الانتظار الى ان يتم تفعيل التطبيق عن طريق الرسائل النصية , اذا تأخر التفعيل حاول مره اخرى بعد التاكد من ان لديك رصيد لاستقبال الرسائل,ومن انك مفعل صلاحية استقبال الرسائل في التطبيق.</string>
+    <string name="upload_image_pas"> يتم تحميل الصور الى السرفر بشكل كامل</string>
+    <string name="upload_image_fail">لم يتم تحميل الصور الى السرفر بشكل كامل</string>
+    <string name="images_name_fail">تم حفظ الصور باسم غير صحيح,اعد التقاطها مره اخرى أو تأكد من رقم تلفون العميل.</string>
+    <string name="cancel">الغاء الأمر</string>
+    <string name="query_label">استعلام</string>
+    <string name="date_label">التاريخ</string>
+    <string name="mailto_label">ارسل الايميل الى </string>
+    <string name="search_first_label">الاول</string>
+    <string name="search_prev_label">السابق</string>
+    <string name="search_next_label">التالي</string>
+    <string name="search_last_label">الاخير</string>
+    <string name="radioAll_label">الكل</string>
+    <string name="radioDate_label">تاريخ محدد</string>
+    <string name="no_data_found">لايوجد بيانات</string>
+    <string name="no_more_rows">لايوجد بيانات اخرى</string>
+    <string name="from_account_no_label">من حساب</string>
+    <string name="to_account_no_label">الى حساب  أو نقطة خدمه</string>
+    <string name="account_no">رقم الحساب</string>
+    <string name="account_name">اسم الحساب</string>
+    <string name="account_curr">العملة</string>
+    <string name="account_type">النوع</string>
+    <string name="account_classification">التصنيف</string>
+    <string name="is_default">الافتراضي</string>
+    <string name="mobile_no">رقم الجوال</string>
+    <string name="client_account_no_label">رقم حساب العميل</string>
+    <string name="client_password">كلمة السر للعميل</string>
+    <string name="checkandconfermation">فحص وارسال كود التحقق للعميل</string>
+    <string name="confirmation_label">كود التحقق</string>
+    <string name="new_account_no_label">رقم الحساب الجديد</string>
+    <string name="amount">المبلغ</string>
+
+    <string name="cancel_device_license">الغاء ترخيص الجهاز</string>
+    <string name="password">كلمة السر</string>
+    <string name="client_name_label">اسم العميل</string>
+    <string name="client_photo_label">صورة العميل</string>
+    <string name="client_cardfront_label">وجه البطاقة</string>
+    <string name="client_cardback_label">خلف البطاقة</string>
+    <string name="client_contract_label">صورةالطلب</string>
+    <string name="prev_pwd">كلمة السر القديمة</string>
+    <string name="pos_code">رقم نقطة المشتريات</string>
+    <string name="pos_name">اسم النقطة</string>
+    <string name="pos_qr_scan">قراءة رقم النقطة</string>
+    <string name="new_pwd">كلمة السر الجديدة</string>
+    <string name="confirm_pwd">تأكيد كلمة السر</string>
+    <string name="prev_email">البريد الالكتروني القديم</string>
+    <string name="new_email">البريد الالكتروني الجديد</string>
+    <string name="confirm_email">تأكيد البريد</string>
+    <string name="bill_no_label">رقم الفاتورة#</string>
+    <string name="meter_no_label">رقم العداد#</string>
+
+    <string name="scan_message">هل تريد تنزيل الكود الخاص بالماسح الضوئي?</string>
+    <string name="scan_title">لايوجد ماسح ضوئي</string>
+
+    <string name="email_not_found">لايوجد لديك بريد الكتروني،الرجاء إعادة تسجيل بريدك الالكتروني من شاشة تغيير البريد الالكتروني في خدمات الحسابات. </string>
+
+    <string name="phone_no_label">رقم التلفون</string>
+    <string name="phone_no_hint">أدخل رقم التلفون</string>
+    <string name="mobile_no_hint">أدخل رقم الجوال</string>
+    <string name="account_no_hint">أدخل رقم حسابك</string>
+    <string name="name_hint">أدخل الإسم الرباعي</string>
+    <string name="sms_hint">ادخل كود الرسائل SMS</string>
+    <string name="amount_hint">أدخل المبلغ</string>
+    <string name="password_hint">أدخل كلمة السر</string>
+    <string name="new_password_hint">أدخل كلمة السر الجديدة</string>
+    <string name="confirm_password_hint">أعد إدخال كلمة السر</string>
+    <string name="forgot_verify_code">إذا نسيت رمز التحقق ، اضغط هنا،وسيتم ارسال الرمز عبر رسالة نصية.</string>
+    <string name="request_verify_code">طلب رمز التحقق</string>
+    <string name="verification_code">كود التحقق</string>
+    <string name="verification_code_hint">أدخل كود التحقق</string>
+    <string name="verification_code_error">كود التحقق غير صحيح!</string>
+    <string name="email_hint">أدخل البريد الإلكتروني</string>
+    <string name="card_no_hint">أدخل رقم الهوية</string>
+    <string name="birth_place_hint">أدخل مكان الميلاد</string>
+    <string name="card_type_label">نوع الهوية</string>
+    <string name="card_no_label">رقم الهوية</string>
+    <string name="confirmation_message_label">الرسالة الواردة</string>
+    <string name="confirmation_code_error">رمز التأكيد غير صحيح!</string>
+    <string name="confirmation_code_label">أدخل الكود هنا</string>
+    <string name="alert_no_internet">لايوجد اتصال بالنت سيتم ارسال الطلب عبر رسالة نصية</string>
+    <string name="check_account">يتم التأكد من الحساب الان</string>
+
+    <string name="bill_no">رقم الفاتورة#</string>
+    <string name="change_pwd">تغيير كلمة السر</string>
+    <string name="change_email">تغيير البريد الالكتروني</string>
+    <string name="add_account">اضافة حساب</string>
+    <string name="accounts_report">حساباتك</string>
+    <string name="transaction_report">العمليات التي تمت</string>
+
+    <string name="Sending">ارسال</string>
+    <string name="confirmation">تأكيد</string>
+    <string name="alert">تنبيه</string>
+    <string name="error">خطأ</string>
+
+    <string name="request_send_success">تم ارسال الطلب</string>
+    <string name="request_notsend">الطلب لم يرسل</string>
+    <string name="process_complite_success">تمت الحركة</string>
+    <string name="process_notcomplite">الحركة لم تتم</string>
+
+    <string name="no_services">لايوجد خدمات تفصيليه لهذه الخدمه.</string>
+    <string name="no_notifications">لايوجد إشعارات حتى الأن.</string>
+    <string name="no_favorites">لايوجدأي عناصر في المفضلة.</string>
+
+    <string name="login_accountpass_label">كلمة السر</string>
+    <string name="login_label">تسجيل الدخول</string>
+    <string name="firsttimecheck_label">تسجيل الحساب</string>
+    <string name="reactivate_label">اعادة تفعيل</string>
+    <string name="cancelreactivate_label">إلغاء الأمر</string>
+    <string name="exit_label">خروج</string>
+    <string name="about_label">من نحن</string>
+    <string name="service_agreement">اتفاقية خدمات</string>
+    <string name="contact">تواصل معنا</string>
+    <string name="reporting_label">تقارير</string>
+    <string name="handle">خدمات البنك</string>
+    <string name="fund_label">خدمات التمويل</string>
+    <string name="help_label">مساعده</string>
+    <string name="notifications_label">إشعارات</string>
+    <string name="note_del">حذف الإشعار</string>
+    <string name="setting_label">الاعدادات</string>
+    <string name="website_label">صفحة البنك</string>
+    <string name="email_label">البريدالالكتروني</string>
+    <string name="simcard_label">رقم الشريحة</string>
+    <string name="sim1_label">شريحة 1</string>
+    <string name="sim2_label">شريحة 2</string>
+    <string name="client_profile">ملفك الشخصي</string>
+
+    <string name="facebook_label">فيسبوك</string>
+    <string name="branches_label">فروعنا</string>
+
+    <string name="system_stop"> النظام موقف من قبل البنك </string>
+    <string name="login_userpwd_error">اسم المستخدم او كلمة السر غير صحيحه.</string>
+    <string name="login_license_error">جهازك ليس مصرح له بالدخول على النظام.</string>
+    <string name="old_password_error">كلمة السر القديمة غير صحيحه.</string>
+    <string name="new_password_error">كلمة السر الجديده غير متطابقة.</string>
+    <string name="password_incorrect">كلمة السر يجب أن لا يزيد طولها عن 8 ولا يقل طولها عن 4 ،و ان تحتوي على حروف وارقام ورموز.</string>
+    <string name="forgot_password">هل نسيت كلمة السر؟</string>
+    <string name="old_email_error">البريد القديم غير صحيح.</string>
+    <string name="new_email_error">البريد الجديد غير مطابق.</string>
+    <string name="sql_label">SQL</string>
+    <string name="run_sql_label">Run</string>
+    <string name="try_again">خطأ أعد المحاوله</string>
+    <string name="add_complete">تم الإضافة</string>
+    <string name="update_complete">تم التحديث</string>
+    <string name="update_not_complete">لم يتم التحديث.</string>
+    <string name="update_progress">جاري التحديث...</string>
+    <string name="request_progress">جاري الطلب...</string>
+    <string name="pos_code_error">رقم نقطة الخدمة غير متوافقة مع نظام بيس.</string>
+    <string name="download_pyes_services">جاري تنزيل خدمات بيس...</string>
+    <string name="download_branches_services">تنزيل بيانات الفروع والوكلاء...</string>
+    <string name="download_telecoms_services">تنزيل بيانات شركات الإتصالات...</string>
+    <string name="password_error">كلمة السر غير صحيحه حاول مره اخرى!</string>
+    <string name="phone_error"> رقم التلفون غير صحيح حاول مره اخرى!</string>
+    <string name="confirm_flag">تأكد وأدخل رقم كود التحقق أولا!</string>
+    <string name="remain_login">لايمكنك الدخول الان,تبقى لك </string>
+    <string name="device_serial_error">النظام لا يستطيع قراءة الرقم التسلسلي للجهاز. </string>
+    <string name="sim_card_error">يجب تحديد الشريحه التي يستخدمها النظام للرسائل القصيرة,اذهب الى ملفك الشخصي. </string>
+    <string name="first_login_error">خطأ في التسجيل اتصل بمكتب المساعدة</string>
+
+    <string name="account_services_error">لايوجد خدمات مرتبطة بحسابك , قم بتنزيلها من الاعدادات.</string>
+    <string name="account_services_success">تم تحديث الخدمات المرتبطة بحسابك.</string>
+    <string name="install_success">تم تجهيز التطبيق بنجاح.</string>
+    <string name="install_not_success">لم يتم تجهيز التطبيق بشكل كامل.</string>
+    <string name="registration_error">لم يتم تسجيل حسابك بشكل صحيح , قم باعادة التفعيل للحساب .</string>
+    <string name="registration_success">تم تسجيل حسابك بنجاح.</string>
+    <string name="registration_notification_success">تم تسجيل حسابك في نظام الاشعارات بنجاح.</string>
+    <string name="app_update_error">يحتاج النظام الى التحديث , قم بتنزيل النظام والتحديث من شاشة الإعدادات.</string>
+    <string name="xml_needed_update">الخدمات الخاصة بالنظام تحتاج الى تحديث , قم بذلك من شاشة الإعدادات.</string>
+    <string name="xml_updated_before">خدمات التطبيق محدثة من قبل.</string>
+    <string name="xml_updated_success">تم تحديث خدمات التطبيق بنجاح.</string>
+    <string name="updated_branches_success">تم تحديث بيانات الفروع والوكلاء.</string>
+    <string name="updated_telecom_success">تم تحديث بيانات شركات الاتصالات.</string>
+    <string name="xml_updated_error">لم يتم تحديث خدمات التطبيق.</string>
+    <string name="updated_branches_error">بيانات الفروع والوكلاء لم يتم تجديثها.</string>
+    <string name="updated_telecom_error">بيانات شركات الاتصالات لم يتم تحديثها.</string>
+
+    <string name="web_access_error">خطأ في الوصول الى خدمات الوب,تأكد من اتصالك بالانترنت واعد المحاوله او اتصل بخدمة عملاء البنك.</string>
+    <string name="finish">تم التحديث ويجب الدخول مرة اخرى الى النظام لتفعيل الخدمات </string>
+    <string name="tel_com_error">لايوجد اتصال بالشبكه</string>
+    <string name="internet_error">لايوجد اتصال بالانترنت</string>
+    <string name="webservice_error">لا يمكنك استخدام هذا عبر الإنترنت الآن بسبب خطأ عند تسجيل الدخول.</string>
+    <string name="sp_setting_error">لم يتم اعداد مزود خدمة الرسائل في النظام</string>
+    <string name="sp_error">لايوجد اتصال بالانترنت او بشبكة الاتصالات</string>
+    <string name="new_operation_error">لايمكنك اجراء العملية بينما العمليه السابقة قيد التنفيذ</string>
+    <string name="number_error">هناك خطأ في الرقم المدخل</string>
+    <string name="request_send_over_sms">سيتم ارسال الطلب عبر رسالة نصية,هل أنت موافق؟</string>
+    <string name="reactivate_message">سيتم حذف البيانات السابقة , هل أنت متأكد؟</string>
+    <string name="are_you_sure">هل أنت متاكد ؟</string>
+    <string name="save_complete">تم الحفظ</string>
+    <string name="request_send_over_internet">سيتم ارسال الطلب عبر الانترنت,هل أنت موافق؟</string>
+    <string name="sms_send_complete">تم ارسال الطلب وسيتم الرد قريبا</string>
+    <string name="sms_delivered_complete">تم توصيل الرسالة</string>
+    <string name="sms_send_not_complete">خطأ في إرسال الرسائل القصيره !تأكيد أن لديك رصيد ثم أعد المحاولة</string>
+
+    <string name="account_not_have_mobile">"لايوجد رقم موبايل مرتبط بحسابك"</string>
+    <string name="sms_msg_length_error">طول الرسالة اكبر من 70 حرف , استخدم الانترنت لاكمال طلبك.</string>
+    <string name="timeout_error">سيتم ارسال الرد قريبا</string>
+    <string name="date_error">"التاريخ غير صحيح ويجب ان يكون بالشكل التالي  yyyy/mm/dd"</string>
+    <string name="birth_date_error">التاريخ غير صحيح و يجب ان يكون عمر العميل اكبر أو يساوي 18 سنة وأقل من او يساوي 90 سنه</string>
+    <string name="mobile_error">"رقم الموبايل غير صحيح" </string>
+    <string name="ms">ثانية</string>
+    <string name="Choice_email_app">اختر التطبيق الذي تريد الارسال من خلاله:</string>
+    <string name="Choice_explorer_app">اختر مستعرض الملفات :</string>
+    <string name="tel_com_code_label">رمز خدمة الرسائل القصيرة</string>
+
+    <string name="google_maps_error">لايمكن استدعاء خدمة الخرائط</string>
+    <string name="Our_HQandBranches">المقر الرئيسي للبنك وفروعه</string>
+
+    <string name="install_alert">إذا لم يظهر لك تنصيب النظام تلقائيا,إذهب الى الذاكره الداخلية للجهاز وادخل الى المجلد PYes تجد ملف Pyes.apk قم بتنفيذه</string>
+    <string name="pyes_url_error">"خطأ في عنوان URL لتطبيق Pyes"</string>
+    <string name="storage_error">لايوجد صلاحية لاستخدام الذاكرة الداخلية للجهاز</string>
+    <string name="amb_name">بنك الأمل لتمويل الأصغر</string>
+
+    <string name="no_cs_phone">لايوجد رقم تلفون لخدمة العملاءوالرجاء تحديث الخدمات واعادة المحاواة.</string>
+
+    <string name="service_permission_needed">ليس لديك صلاحية استخدام هذه الخدمة</string>
+    <string name="permission_needed">طلب صلاحيات</string>
+    <string name="permission_GRANTED">تم منح الصلاحية</string>
+    <string name="permission_DENIED">لم يتم منح الصلاحية</string>
+    <string name="sms_permission_required">يجب أن يكون هناك صلاحية لاستخدام الرسائل القصيرة من أجل اتمام العملية</string>
+    <string name="CAMERA_permission_explanation">يحتاج التطبيق صلاحية استخدام الكاميرا من اجل التقاط صورة العميل والبطاقة الشخصية عند طلب فتح الحساب.</string>
+    <string name="CONTACTS_permission_explanation">يحتاج التطبيق صلاحية قرائة جهات الاتصال لديك من اجل تسهيل عملية البحث واكمال البيانات تلقائيا. </string>
+    <string name="READ_PHONE_STATE_permission_explanation">يحتاج التطبيق إلى قراءة حالة الهاتف لجمع معرف جهازك لأسباب أمنية ،وهي التأكد من ان العمليات التي تقوم بها تتم من خلال جهازك المصرح به لدينا وليست عبر جهاز غير معروف.</string>
+    <string name="STORAGE_permission_explanation">يحتاج التطبيق صلاحية الوصول الى الذاكرة الداخلية من أجل تحديث صورة ملفك الشخصي وايضا تنزيل التحديثات على التطبيق.</string>
+    <string name="NET_permission_explanation">يحتاج التطبيق صلاحية قراءة حالة الشبكة لكي تتمكن من الوصول الى خدمات الوب الخاصة بالتطبيق.</string>
+    <string name="SMS_permission_explanation">يحتاج التطبيق صلاحية استخدام الرسائل القصيرة (إرسال واستقبال) لإرسال طلبك واستلام الرسائل من بنك الأمل وذلك في حالة عدم وجود اتصال بالإنترنت.</string>
+    <string name="INTERNET_permission_explanation">يحتاج التطبيق صلاحية الوصول الى الانترنت لكي تتمكن من الوصول الى خدمات الوب الخاصة بالتطبيق.</string>
+    <string name="CALL_PHONE_permission_explanation">يحتاج النظام إلى صلاحية الاتصال من أجل الاتصال بخدمة الدعم الفني.</string>
+    <string name="LOCATION_permission_explanation">يحتاج التطبيق صلاحية معرفة موقعك من اجل استخدام الخرائط ومعرفة المسافة بينك وبين الفروع والوكلاء للتتمكن من الوصول اليهم .</string>
+
+    <string name="accept_permission">اقبل هذا الطلب وكرر الأمر مرة أخرى. </string>
+
+    <string name="FINGERPRINT_permission">لايوجد صلاحيات لاستخدام البصمة</string>
+    <string name="FINGERPRINT_Authentication_error">خطأ في المطابقة, حاول مره اخرى</string>
+    <string name="FINGERPRINT_Authentication_help">مساعدة في المطابقة </string>
+    <string name="FINGERPRINT_Authentication_failed">فشل في المطابقة ,حاول مره اخرى </string>
+    <string name="FINGERPRINT_Authentication_success">نجحت عملية المطابقة </string>
+    <string name="FINGERPRINT_Scanner_not_found">جهازك ليس فيه متحسس بصمات.</string>
+    <string name="FINGERPRINT_Scan_Finger">ضع اصبعك على ماسح البصمة</string>
+    <string name="FINGERPRINT_Add_finger">أضف على الاقل بصمة واحدة الى جهازك</string>
+    <string name="FINGERPRINT_least_one_rolled">البصمة غير معرفة في الجهاظ</string>
+
+    <string name="C1">ر.ي</string>
+    <string name="C2">$</string>
+    <string name="C3">ر.س</string>
+    <string name="C4">€</string>
+    <string name="C5">£</string>
+
+    <string name="PA">بيس</string>
+    <string name="CA">جاري</string>
+    <string name="SA">إدخار</string>
+    <string name="DA">وديعة</string>
+    <string name="LA">تمويل</string>
+
+    <string name="note_counter">+99</string>
+    <string name="langeE">انجليزي </string>
+    <string name="langearb">عربي </string>
+    <string name="SelectLan">اختيار اللغة</string>
+    <string name="next">التالي</string>
+    <string name="Previous">السابق</string>
+    <string name="OTP"> تم إرسال رمز التحقق إليك على هاتفك المحمول. الرجاء إدخاله أدناه</string>
+    <string name="VERIFY">تحقق</string>
+    <string name="fawry">فوري</string>
+    <string name="bouquet">باقات</string>
+
+</resources>

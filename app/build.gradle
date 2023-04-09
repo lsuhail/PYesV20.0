@@ -1,0 +1,99 @@
+
+buildscript {
+
+    repositories {
+        maven { url 'https://plugins.gradle.org/m2/' }
+    }
+    dependencies {
+        classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:[0.14.0, 0.99.99]'
+    }
+}
+apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
+
+repositories {
+    maven {
+        url '/Volumes/AMB/Android/PYesV19.0/my_flutter/build/host/outputs/repo'
+    }
+    maven {
+        url 'https://storage.googleapis.com/download.flutter.io'
+    }
+    flatDir {
+        dirs 'libs'
+    }
+    jcenter()
+    maven {
+        url "https://maven.google.com"
+    }
+}
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 33
+    useLibrary 'org.apache.http.legacy'
+    defaultConfig {
+        applicationId "dev.alamalbank.amb"
+       /* manifestPlaceholders = [
+                onesignal_app_id               : 'a8b694bc-0346-4f99-b744-a6e3ba6ec4dc',
+                onesignal_google_project_number: 'REMOTE'
+        ]*/
+        multiDexEnabled true
+
+        minSdkVersion 21
+        targetSdkVersion 33
+        versionCode 22
+        versionName "19.3"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        signingConfig signingConfigs.debug
+
+    }
+    lintOptions {
+        checkReleaseBuilds false
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        profile {
+            initWith debug
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+}
+dependencies {
+
+/*    debugImplementation 'com.example.my_flutter:flutter:1.0:debug@aar'
+    profileImplementation 'com.example.my_flutter:flutter:1.0:profile@aar'
+    releaseImplementation 'com.example.my_flutter:flutter:1.0:release@aar'*/
+   debugImplementation 'com.example.my_flutter:flutter_debug:1.0'
+    profileImplementation 'com.example.my_flutter:flutter_profile:1.0'
+    releaseImplementation 'com.example.my_flutter:flutter_release:1.0'
+
+
+
+    implementation 'com.github.savvyapps:ToggleButtonLayout:java-SNAPSHOT'
+    implementation 'com.nightonke:boommenu:2.1.1'
+    implementation group: 'com.github.dmytrodanylyk.android-process-button', name: 'library', version: '1.0.4' //Thanks for using https://jar-download.com
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.material:material:1.1.0-alpha07'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'com.onesignal:OneSignal:[4.0.0, 4.99.99]'
+    implementation 'com.scwang.wave:MultiWaveHeader:1.0.0-alpha-1'
+    implementation 'com.journeyapps:zxing-android-embedded:3.2.0@aar'
+    implementation 'com.google.zxing:core:3.2.1'
+    implementation group: 'org.mozilla', name: 'rhino', version: '1.7.10'
+    implementation "cz.msebera.android:httpclient:4.4.1.1"
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.navigation:navigation-fragment:2.4.1'
+    implementation 'androidx.navigation:navigation-ui:2.4.1'
+
+}
+
+

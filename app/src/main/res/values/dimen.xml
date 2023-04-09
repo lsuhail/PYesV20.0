@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_font_size">40sp</dimen>
+    <dimen name="normal_font_size">25sp</dimen>
+    <dimen name="big_font_size">32sp</dimen>
+    <dimen name="small_font_size">15sp</dimen>
+    <dimen name="radius">5dp</dimen>
+    <dimen name="strokeWidth">1dp</dimen>
+    <dimen name="angle">-90</dimen>
+    <dimen name="image_size">50dp</dimen>
+    <dimen name="spacing_medium">5dp</dimen>
+    <dimen name="spacing_large">15dp</dimen>
+    <dimen name="spacing_smlarge">18dp</dimen>
+    <dimen name="spacing_mlarge">20dp</dimen>
+    <dimen name="spacing_mxlarge">25dp</dimen>
+    <dimen name="spacing_xlarge">35dp</dimen>
+</resources>

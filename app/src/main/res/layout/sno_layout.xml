@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8.0dp"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="4.0dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="3.0">
+
+        <ImageView
+            android:foreground="@drawable/pyeslogoc"
+            android:id="@+id/ivLogo"
+            android:layout_width="45.0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/PhoneNumberInput"
+            android:layout_width="0.0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.6"
+            app:boxCornerRadiusBottomEnd="4.0dp"
+            app:boxCornerRadiusBottomStart="4.0dp"
+            app:boxCornerRadiusTopEnd="4.0dp"
+            app:boxCornerRadiusTopStart="4.0dp"
+            app:counterEnabled="true"
+            app:endIconMode="clear_text"
+            app:errorEnabled="true"
+            app:helperTextEnabled="true"
+            app:hintAnimationEnabled="true"
+            app:hintEnabled="true"
+            app:hintTextAppearance="@style/TextAppearance.Design.Hint"
+            app:startIconDrawable="@drawable/ic_settings_phone">
+
+            <AutoCompleteTextView
+                android:hint="@string/phone_no_hint"
+                android:textColorHint="@color/color_gold"
+                android:id="@+id/etPhoneNumber"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:digits="\ 1234567890"
+                android:inputType="phone"
+                android:maxLength="9"
+                android:textAlignment="viewStart"
+                android:textStyle="bold" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:weightSum="3.0">
+
+            <ImageView
+
+                android:id="@+id/ivChooseContact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:background="@drawable/ic_person_search" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

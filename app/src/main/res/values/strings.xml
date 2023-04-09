@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PYes dev</string>
+    <string name="free_phone">Free Phone:8000006</string>
+    <string name="free_phone_after_update">Call Free To Customer Services</string>
+    <string name="whats_app">WhatsApp:+967778559009</string>
+    <string name="whats_app_after_update">WhatsApp</string>
+    <string name="app_notifications">App Note</string>
+    <string name="country_label">Country</string>
+    <string name="entity_label">Entity</string>
+    <string name="language_label">Language</string>
+    <!-- add the following constants -->
+    <string name="contact_pick_text">Pick Contact</string>
+    <string name="contact_name_text">Contact Name</string>
+
+    <string name="creat_account">new Account</string>
+    <string name="dont_have_account"> or cLick here to create a </string>
+
+
+    <string name="user_hello">Hi</string>
+    <string name="user_last_log_in">Last Log in :</string>
+    <string name="account_balance">Balance</string>
+    <string name="database_create_error">error in create database</string>
+
+    <string name="main_services">Main Services</string>
+    <string name="open">Open</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="close">Close</string>
+
+    <string name="repayment_InternetOrBalance">check >></string>
+    <string name="repayment_phone_title">RePayment Phone</string>
+    <string name="repayment_internet_title">RePayment Internet</string>
+    <string name="repayment_adsl_title">RePayment Internet</string>
+    <string name="repayment_yemenmobile_title">RePayment Yemen Mobile</string>
+    <string name="repayment_sabafon_title">RePayment Saba fon</string>
+    <string name="repayment_mtn_title">RePayment MTN</string>
+    <string name="repayment_y_title">RePayment Y</string>
+
+    <string name="tabIndicator_balance_Payment">Balance Payment</string>
+    <string name="tabIndicator_bouquet_Payment">Bouquet Payment</string>
+    <string name="tabIndicator_qurey">Query</string>
+
+    <string name="lastlogin">Last login in:</string>
+    <string name="forcelogin_title">Login Check</string>
+    <string name="msg_curr_query">Exchange Rates Query</string>
+    <string name="msg_account_balance_query">Account balance</string>
+    <string name="msg_transfer_money">Transfer money</string>
+    <string name="msg_open_account">Open an Account</string>
+    <string name="msg_statement_list">Statement List</string>
+    <string name="msg_water_bill_payment">Water Bill Payment</string>
+    <string name="msg_electricity_bill_payment">Electricity Bill Payment</string>
+    <string name="msg_phone_bill_payment">Phone Bill Payment</string>
+    <string name="msg_telcom_bill_payment">Mobile Bill Payment</string>
+    <string name="msg_internet_bill_payment">Internet Bill Payment</string>
+    <string name="bill_payment"> Bill Payment</string>
+    <string name="msg_change_password">Change password</string>
+    <string name="msg_change_email">Change Email</string>
+    <string name="msg_add_account">Add New account</string>
+    <string name="msg_from">from</string>
+    <string name="msg_for">for</string>
+    <string name="msg_to">to</string>
+    <string name="msg_or">or</string>
+    <string name="msg_and">and</string>
+    <string name="msg_graterthan">Greater Than</string>
+    <string name="msg_lessthan">Less Than</string>
+    <string name="msg_bill_no">NO#</string>
+    <string name="msg_check_account">check account and pawword is correct</string>
+
+    <string name="open_account_title">Open Account Request</string>
+    <string name="birth_place_label">Birth Place</string>
+    <string name="birth_date_label">Birth Date</string>
+
+    <string name="error_no_of_part">Name is not complete!</string>
+    <string name="no_of_part">It should consist of</string>
+    <string name="parts">Parts</string>
+    <string name="at_least">at least</string>
+
+    <string name="value_not_empty">You must be enter the value</string>
+    <string name="value_condition">Value mast be </string>
+    <string name="condition_format_error">The syntax of conditional is not correct</string>
+    <string name="phone_length_and_start_with_zero">The phone number should start with 0 and be 8 digits long</string>
+    <string name="phone_or_internet_error">You must be select Phone or Internet</string>
+    <string name="mobile_length_and_start_with_zero">The mobile number should start with 7 and be 9 digits long</string>
+
+    <string name="entered_data_error">There is an error with the entered data, review it and try again.</string>
+
+    <string name="missing_info">You must be enter all information before confirmation</string>
+    <string name="email_error">Email Format not correct</string>
+    <string name="account_services">Accounts Services</string>
+    <string name="menu">Menu</string>
+    <string name="our_services">Our Services</string>
+    <string name="pyes_services">Pyes Services</string>
+    <string name="curr_query">Exchange Rates</string>
+    <string name="balance_query">Balance Query</string>
+    <string name="transfer_money_to_another_account">Transfer money to another account</string>
+    <string name="transfer_money_to_cash">Transfer money to cash</string>
+    <string name="shopping">Shopping</string>
+    <string name="cash_payment">Cash Payment</string>
+    <string name="statment_list">Statement List</string>
+
+    <string name="help_screen">Help</string>
+    <string name="another_services">Another Services</string>
+    <string name="backup">Backup</string>
+    <string name="payment">Payment</string>
+    <string name="payment_water">The payment of water bill</string>
+    <string name="payment_electricity">The payment of electricity bill</string>
+
+
+    <string name="prepaid">Prepaid</string>
+    <string name="postpaid">Postpaid</string>
+    <string name="internet_bouquet">Internet Bouquet</string>
+    <string name="balance">رصيد</string>
+
+    <string name="telecom_balance_query">Balance Query</string>
+    <string name="subscription_type">Subscription Type</string>
+
+    <string name="linetype">Line Type</string>
+
+    <string name="sim">SIM</string>
+    <string name="programmable">Programmable</string>
+    <string name="modem">Modem</string>
+    <string name="advantages">Advantages</string>
+    <string name="gifts">Gifts</string>
+    <string name="withoutcredit">Without Credit</string>
+    <string name="withcredit">With Credit</string>
+    <string name="bouquets">Bouquets</string>
+
+    <string name="service_type">Trans. Type</string>
+    <string name="bouquet_type">Bouquet Type</string>
+    <string name="advancepayment_status">Advance Payment Status</string>
+    <string name="bouquet_dtl">Bouquet</string>
+
+    <string name="amount_bouquet_offer">Amount Category</string>
+    <string name="adsl_bouquet_offer">ADSL Bouquet</string>
+    <string name="billing_bouquet_offer">Bouquet PrePayed </string>
+    <string name="payment_mobile">The payment of Mobile Telcom bill</string>
+    <string name="payment_mobile_units">Mobile Pay Units</string>
+
+
+    <string name="exit">Exit</string>
+    <string name="refresh">Download Services</string>
+    <string name="contactrefresh">Added Contacts</string>
+    <string name="home">Main Activity</string>
+    <string name="back">Back</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="okey">OK</string>
+    <string name="delete">Delete</string>
+
+    <string name="more">More</string>
+
+    <string name="favorite_show">Favorite</string>
+    <string name="favorite_title">Your Favorites Activity List</string>
+    <string name="favorite_add">+Favorite</string>
+    <string name="favorite_del">Delete Favorite</string>
+    <string name="download_and_install_pyes">Download PYes</string>
+    <string name="pyes_download_progress">Update PYes App...</string>
+    <string name="to_communicate">To communicate:</string>
+    <string name="terms_of_use">Terms of Use | Privacy Policy</string>
+    <string name="favorite_added_success">Added successfully</string>
+    <string name="favorite_added_not_success">Not added successfully</string>
+    <string name="favorite_added_before">This service has already been added to favorites</string>
+    <string name="autoComplete_del">Delete Autocomplete</string>
+    <string name="delete_success">Deleted successfully</string>
+    <string name="delete_not_success">Delete Not Completed</string>
+    <string name="note_player_id_err">Player Id not exists in notification application</string>
+    <string name="please_wait">Please wait until the application activated by SMS, if activation delayed, try again after making sure that you have a balance to receive messages, and that you are enabled to receive messages in the application.</string>
+    <string name="upload_image_pas">Upload images into server completed success</string>
+    <string name="upload_image_fail">Upload images into server not completed success</string>
+    <string name="images_name_fail">The photos were saved with an incorrect name, take them again or check the client’s phone number.</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="query_label">Query</string>
+    <string name="date_label">Date</string>
+    <string name="mailto_label">Mail To</string>
+    <string name="search_first_label">First</string>
+    <string name="search_prev_label">Prev</string>
+    <string name="search_next_label">Next</string>
+    <string name="search_last_label">Last</string>
+    <string name="radioAll_label">All</string>
+    <string name="radioDate_label">Specific Date</string>
+    <string name="no_data_found">No Data Found</string>
+    <string name="no_more_rows">No More</string>
+    <string name="from_account_no_label">Account No</string>
+    <string name="to_account_no_label">To account | Service Point</string>
+    <string name="account_no">Account No</string>
+    <string name="account_name">Account Name</string>
+    <string name="account_curr">Curr</string>
+    <string name="account_type">Type</string>
+    <string name="account_classification">Class</string>
+    <string name="is_default">Default</string>
+    <string name="mobile_no">Mobile No</string>
+
+    <string name="client_account_no_label">Client Account No</string>
+    <string name="client_password">Client Password</string>
+    <string name="checkandconfermation">Check and Send Confermation Code</string>
+    <string name="confirmation_label">Confermation Code</string>
+    <string name="new_account_no_label">Account No</string>
+    <string name="amount">Amount</string>
+
+
+    <string name="cancel_device_license">Cancel Device License</string>
+    <string name="password">Password</string>
+    <string name="client_name_label">client name</string>
+    <string name="client_photo_label">client Photo</string>
+    <string name="client_cardfront_label">Front Card Photo</string>
+    <string name="client_cardback_label">Back Card Photo</string>
+    <string name="client_contract_label">Contract Photo</string>
+    <string name="prev_pwd">Prev Password</string>
+    <string name="pos_code">POS Code</string>
+    <string name="pos_name">POS Name</string>
+    <string name="pos_qr_scan">Scan Qr code</string>
+    <string name="new_pwd">New Password</string>
+    <string name="confirm_pwd">Confirm Password</string>
+    <string name="prev_email">Prev Email</string>
+    <string name="new_email">New Email</string>
+    <string name="confirm_email">Confirm Email</string>
+    <string name="bill_no_label">Bill No#</string>
+    <string name="meter_no_label">Meter No#</string>
+
+    <string name="scan_message">Download a scanner code activity?</string>
+    <string name="scan_title">No Scanner Found</string>
+
+    <string name="email_not_found">You do not have an email, please re-register your email from the change email screen in account services.</string>
+
+    <string name="phone_no_label">Phone No</string>
+    <string name="phone_no_hint">Enter phone number</string>
+    <string name="mobile_no_hint">Enter mobile number</string>
+    <string name="account_no_hint">Enter account number</string>
+    <string name="name_hint">Enter the quad name</string>
+    <string name="sms_hint">Enter Mobile Com.Short Code</string>
+    <string name="amount_hint">Enter the amount</string>
+    <string name="password_hint">Enter Your password</string>
+    <string name="new_password_hint">Enter Your New password</string>
+    <string name="confirm_password_hint">ReEnter Your password</string>
+    <string name="forgot_verify_code">If you forgot the verify code,touch here, and the code will be sent via SMS.</string>
+    <string name="request_verify_code">Request Verification Code</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="verification_code_hint">Enter Your Verification Code</string>
+    <string name="verification_code_error">Verification not correct!</string>
+    <string name="email_hint">Enter Email</string>
+    <string name="card_no_hint">Enter Card No</string>
+    <string name="birth_place_hint">Enter Birth Place</string>
+
+    <string name="card_type_label">Card Type</string>
+    <string name="card_no_label">Card No</string>
+    <string name="confirmation_message_label">Receive Message</string>
+    <string name="confirmation_code_label">Enter the Code here</string>
+    <string name="confirmation_code_error">Confermation Code not Matching!</string>
+    <string name="alert_no_internet">No internet then ,Sending Requst by SMS</string>
+    <string name="check_account">Checking  the account now</string>
+    <string name="bill_no">Bill NO#</string>
+    <string name="change_pwd">Change Password</string>
+    <string name="change_email">Change Email</string>
+    <string name="add_account">Add Accounts</string>
+    <string name="accounts_report">Your Accounts</string>
+    <string name="transaction_report">Transactions</string>
+
+    <string name="Sending">Sending</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="alert">Alert</string>
+    <string name="error">Error</string>
+
+    <string name="request_send_success">Request Send Success</string>
+    <string name="request_notsend">Request Not Send</string>
+    <string name="process_complite_success">Process Complite Success</string>
+    <string name="process_notcomplite">Process Not Complite</string>
+
+
+    <string name="no_services">There are no services details for this service.</string>
+    <string name="no_notifications">There are no Notifications till now.</string>
+    <string name="no_favorites">There are no items in Favorite list.</string>
+
+    <string name="login_accountpass_label">Password</string>
+    <string name="login_label">Login</string>
+    <string name="firsttimecheck_label">Register</string>
+    <string name="reactivate_label">Reactiviate</string>
+    <string name="cancelreactivate_label">Cancel ReActiviate</string>
+    <string name="exit_label">Exit</string>
+    <string name="about_label">About Us</string>
+    <string name="service_agreement">Service Agreement</string>
+    <string name="contact">Contact US</string>
+    <string name="reporting_label">Report</string>
+    <string name="handle">Bank Services</string>
+    <string name="fund_label">Fund Services</string>
+    <string name="help_label">Help</string>
+    <string name="notifications_label">Notifications</string>
+    <string name="note_del">Delete Note</string>
+    <string name="setting_label">Setting</string>
+    <string name="website_label">Home Page</string>
+    <string name="email_label">Email</string>
+    <string name="simcard_label">SIM CARD</string>
+    <string name="sim1_label">SIM1</string>
+    <string name="sim2_label">SIM2</string>
+    <string name="facebook_label">Face</string>
+    <string name="branches_label">Our Branches</string>
+    <string name="client_profile">Your Profile</string>
+
+    <string name="system_stop">The System is stop by the bank .</string>
+    <string name="login_userpwd_error">User or Password does not correct .</string>
+    <string name="login_license_error">There is no license for Your device.</string>
+    <string name="old_password_error">Old Password not correct.</string>
+    <string name="new_password_error">New Password not Matching.</string>
+    <string name="password_incorrect">"Password must be no more than 8 characters long and not less than 4 characters long, and it must contain letters, numbers and symbols."</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="old_email_error">Old Email not correct.</string>
+    <string name="new_email_error">New Email not Matching.</string>
+    <string name="sql_label">SQL</string>
+    <string name="run_sql_label">Run</string>
+    <string name="try_again">try again</string>
+    <string name="add_complete">Add Complete</string>
+    <string name="update_complete">Update Complete</string>
+    <string name="update_not_complete">Update not Complete.</string>
+    <string name="update_progress">Update progress...</string>
+    <string name="request_progress">Request progress...</string>
+    <string name="pos_code_error">POS Code not compatible with PYes App.</string>
+    <string name="download_pyes_services">Download PYes services ...</string>
+    <string name="download_branches_services">Download Branches and Agents ...</string>
+    <string name="download_telecoms_services">Download Telecoms Info ...</string>
+    <string name="password_error">the password is not correct,try again!</string>
+    <string name="phone_error">phone number is not correct,try again!</string>
+    <string name="confirm_flag">Please check and enter the confirmation Code before that!</string>
+    <string name="remain_login">You can not login now,remain </string>
+    <string name="device_serial_error">App can not read device serial. </string>
+    <string name="sim_card_error">You must specify the SIM card that the App uses for SMS,go to Your Profile. </string>
+
+    <string name="first_login_error">Error in registration ,Call Help Desck </string>
+
+    <string name="account_services_error">You do not have services right now,try download update from settings.</string>
+    <string name="account_services_success">Your services updated successful completed.</string>
+    <string name="install_success">App Installation successful completed.</string>
+    <string name="install_not_success">App Installation not completed.</string>
+    <string name="registration_error">Your account dos not register correctly ,Reactivate Your Account.</string>
+    <string name="registration_success">Your account registered successful completed.</string>
+    <string name="registration_notification_success">Your account registered in notifications system successful completed.</string>
+    <string name="app_update_error">App needed update,download and update it from settings.</string>
+    <string name="xml_needed_update">General services needed update,download and update its from settings.</string>
+    <string name="xml_updated_before">App services updated before.</string>
+    <string name="xml_updated_success">App services updated successful completed.</string>
+    <string name="updated_branches_success">Branch And Agents Info Successful Updated</string>
+    <string name="updated_telecom_success">Telecom Info Successful Updated</string>
+
+    <string name="xml_updated_error">App services not updated.</string>
+    <string name="updated_branches_error">Branch and Agents Info not updated.</string>
+    <string name="updated_telecom_error">Telecom Info not updated.</string>
+
+
+    <string name="web_access_error">Error Accessing to Web Service ,Check Your internet connection and try again or Contact the bank customer service. </string>
+    <string name="finish">Update Complete Success,You must be Relogin into system to activate Services. </string>
+    <string name="sp_setting_error">Service Provider not Setting in the system</string>
+    <string name="tel_com_error">Telecom network no signal</string>
+    <string name="internet_error">No connection to internet</string>
+    <string name="webservice_error">You cannot use this online now because of an error when signing on.</string>
+    <string name="sp_error">there is no connection to the internet or into telecom network</string>
+    <string name="new_operation_error">You can not run this operation while the previous operation under running.</string>
+    <string name="number_error">There is an error in the number </string>
+    <string name="request_send_over_sms">The request send over SMS,Are You sure?</string>
+    <string name="reactivate_message">This action while be delete all data,Are You sure?</string>
+    <string name="are_you_sure">Are You sure?</string>
+    <string name="save_complete">Save complete successful</string>
+
+    <string name="request_send_over_internet">The request send over internet,Are You sure?</string>
+    <string name="sms_send_complete">SMS send and the response soon</string>
+    <string name="sms_delivered_complete">SMS Delivered and the response soon</string>
+    <string name="sms_send_not_complete">SMS Error ! Make sure you have Units and try again</string>
+
+    <string name="account_not_have_mobile">"You don't have mobile no"</string>
+    <string name="sms_msg_length_error">Message length is grater than 70 character ,Use the internet to complete your request.</string>
+    <string name="timeout_error">The response coming soon</string>
+    <string name="date_error">"the date is not correct and it's format like yyyy/mm/dd" </string>
+    <string name="birth_date_error">The date is not correct,and the client age must be greater then or equal to 18 years and less than or equal to 90 years</string>
+    <string name="mobile_error">"Mobile no is not correct" </string>
+    <string name="ms">second</string>
+    <string name="tel_com_code_label">SMS Code</string>
+    <string name="Choice_email_app">Choice App to send email:</string>
+    <string name="Choice_explorer_app">Choice File Manager :</string>
+
+    <string name="m_s" translatable="false">aHR0cHM=</string>                   <!-- http -->
+    <string name="m_h" translatable="false">cHllcy5jb20ueWU=</string>          <!--  pyes.com.ye -->
+    <string name="m_p" translatable="false">OTQ5NA==</string>                  <!--  9090   -->
+    <string name="m_u" translatable="false">L29yZHMvbWNtL3B5ZXMv</string>  <!--  /ords/mcm/pyes/ -->
+    <string name="m_a" translatable="false">L29yZHMvci9tY20vcHllcy8=</string>  <!--  /ords/r/mcm/pyes/ -->
+
+   <!-- <string name="m_s" translatable="false">aHR0cA==</string>
+    <string name="m_h" translatable="false">ZnRwYW1iLmR5bmRucy5vcmc=</string>
+    <string name="m_p" translatable="false">ODA4MA==</string>
+    <string name="m_u" translatable="false">L29yZHMvcHllc3dzL3B5ZXMv</string>
+    <string name="m_a" translatable="false">L29yZHMvbWNtL3IvcHllcy8=</string>
+-->
+
+    <!--
+    <string name="m_h" translatable="false">ODIuMTE0LjE3OS4yNDk=</string>
+    <string name="m_u" translatable="false">L29yZHMvcHllc3dzL3B5ZXMv</string>
+    <string name="m_u" translatable="false">aHR0cHM6Ly9yZW0uYWxhbWFsYmFuay5jb206ODQ0My9hbGFtYWxzeXMvYW1iX3NlcnZsdF9mdW4=</string>
+    -->
+
+    <string name="m_x" translatable="false">aHR0cDovL3JlbS5hbGFtYWxiYW5rLmNvbTo3MTAzL2FsYW1hbHN5cy8=</string>
+    <string name="apk" translatable="false">c2VsZWN0IGFwcGNvZGVwYXJ0MXx8YXBwY29kZXBhcnQyIGZyb20gaG9tZQ==</string>
+    <string name="PYES_APK_URL" translatable="false">aHR0cDovL3d3dy5hbGFtYWxiYW5rLmNvbS9pbWFnZXMvcHllcy9weWVzLmFwaw==</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDxPGfvXIdIUT1xtqkNJ-FYlI8pnbn8xzA</string>
+    <string name="google_maps_error">You Can\'t make map request</string>
+    <string name="Our_HQandBranches">Bank\'s HQ and  Branches</string>
+    <string name="install_alert">If you do not see the installation of the App automatically, go to the internal memory of the device and enter into the folder PYes find the file Pyes.apk and execute it</string>
+    <string name="pyes_url_error">"Pyes app's URL error"</string>
+    <string name="storage_error">No permission to access internal storage</string>
+
+    <string name="amb_name">Al Amal Micro Finance Bank</string>
+
+    <string name="no_cs_phone">No customer service phone number Please update services and try again.</string>
+
+    <string name="service_permission_needed">"You Don't have permission to use this service"</string>
+    <string name="permission_needed">Permission needed</string>
+    <string name="permission_GRANTED">Permission GRANTED</string>
+    <string name="permission_DENIED">Permission DENIED</string>
+    <string name="sms_permission_required">There must be permission to use SMS to complete the process</string>
+    <string name="CAMERA_permission_explanation">Application needs access to Camera to tack photo of clients ,card ....</string>
+    <string name="CONTACTS_permission_explanation">Application needs read CONTACTS to use it in Autocomplete fields .</string>
+    <string name="READ_PHONE_STATE_permission_explanation">The app needs to read the phone status to collect your device ID for security reasons, which is to ensure that the operations you perform are done through our authorized device and not via an unknown device.</string>
+    <string name="STORAGE_permission_explanation">Application needs access to external storage for update Your Profile picture.</string>
+    <string name="NET_permission_explanation">Application needs access network state to access PYes web services.</string>
+    <string name="SMS_permission_explanation">Application needs SMS (Send and Receive) inorder to send Your request and receive message (to:from) Al Amal bank if no internet connection found.</string>
+    <string name="INTERNET_permission_explanation">Application needs INTERNET to access PYes web services.</string>
+    <string name="CALL_PHONE_permission_explanation">The APP needs contact validity in order to contact the technical support service.</string>
+    <string name="LOCATION_permission_explanation">Application needs Access Your GPS Location for Maps.</string>
+
+    <string name="accept_permission">Accept this request and repeat the command again. </string>
+
+    <string name="FINGERPRINT_permission">Fingerprint Permission not granted</string>
+    <string name="FINGERPRINT_Authentication_error">Finger Authentication error ,Try again</string>
+    <string name="FINGERPRINT_Authentication_help">Authentication help</string>
+    <string name="FINGERPRINT_Authentication_failed">Finger Authentication failed ,Try again</string>
+    <string name="FINGERPRINT_Authentication_success">Authentication success</string>
+    <string name="FINGERPRINT_Scan_Finger">Please Your Finger on Scanner</string>
+    <string name="FINGERPRINT_Scanner_not_found">No fingerprint scanner</string>
+    <string name="FINGERPRINT_Add_finger">Add secure to Your Phone in settings</string>
+    <string name="FINGERPRINT_least_one_rolled">No Fingerprint rolled</string>
+
+    <string name="C1">Y.R</string>
+    <string name="C2">$</string>
+    <string name="C3">S.R</string>
+    <string name="C4">€</string>
+    <string name="C5">£</string>
+
+    <string name="PA">PA</string>
+    <string name="CA">CA</string>
+    <string name="SA">SA</string>
+    <string name="DA">DA</string>
+    <string name="LA">LA</string>
+    <string name="phone_line">Land Line</string>
+
+    <string name="note_counter">+99</string>
+    <string name="langeE">English </string>
+    <string name="langearb">Arabic </string>
+    <string name="SelectLan">Select Language </string>
+    <string name="next">Next</string>
+    <string name="Previous">Previous</string>
+    <string name="OTP"> OTP has been sent to you on your mobile phone. Please enter it below</string>
+    <string name="VERIFY">VERIFY</string>
+    <string name="south_regoin">south</string>
+    <string name="north_regoin">north</string>
+    <string name="fawry">direct</string>
+    <string name="bouquet">bundle</string>
+    <string name="units">units</string>
+    <string name="adsl">ADSL</string>
+    <string name="title_activity_recycler_view">RecyclerViewActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+</resources>

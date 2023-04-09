@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:theme="@style/AppTheme"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/img_code_verification" />
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:gravity="center"
+                android:text="@string/OTP"
+                android:focusable="true"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+                android:textColor="@color/color_black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/spacing_large"
+                android:layout_marginTop="@dimen/spacing_xlarge"
+                android:orientation="horizontal">
+
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    style="@style/TextInputLayoutHintText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:textColorHint="@color/color_label"
+                    app:boxStrokeColor="@color/color_gold"
+                    app:hintTextAppearance="@style/TextLabel"
+                    android:minHeight="30dp"
+                    android:layout_margin="10dp"
+
+                    app:passwordToggleTint="@color/color_gold">
+
+                    <EditText
+                        android:id="@+id/ed_login_verification_code"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:drawableStart="@drawable/verified"
+                        android:drawableLeft="@drawable/verified"
+                        android:lines="1"
+                        android:hint="@string/verification_code_hint"
+                        android:inputType="text"
+                        android:padding="8dp"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textColorHint="@color/color_label"
+                        android:textSize="@dimen/normal_font_size" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <Button
+
+                android:id="@+id/b_FirstTimeCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_circle"
+                android:drawableEnd="@drawable/reg_w"
+                android:drawableRight="@drawable/reg_w"
+                android:text="@string/VERIFY"
+                android:textColor="@color/color_background"
+                android:textSize="@dimen/small_font_size" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

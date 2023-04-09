@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/simcardselection_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/l_turquoise"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="100"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <RadioGroup
+            android:id="@+id/rg_sim"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="100"
+            android:background="@drawable/l_orange"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <RadioButton
+                android:id="@+id/rgb_sim1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/sim1_label"
+                android:textColor="@color/color_background"
+                android:textSize="@dimen/normal_font_size" />
+
+            <RadioButton
+                android:id="@+id/rgb_sim2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/sim2_label"
+                android:textColor="@color/color_background"
+                android:textSize="@dimen/normal_font_size" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>
+             

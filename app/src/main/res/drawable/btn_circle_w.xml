@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?><!--<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke
+        android:width="1dp"
+        android:color="@color/color_white" />
+    <corners android:radius="5dp" />
+    <padding
+        android:bottom="3dp"
+        android:left="3dp"
+        android:right="3dp"
+        android:top="3dp" />
+</shape>
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <layer-list>
+            <!-- SHADOW -->
+            <item>
+                <shape>
+                    <solid android:color="@color/color_grey" />
+                    <!-- alttan gölge -->
+                    <corners android:radius="19dp" />
+                </shape>
+            </item>
+            <item android:bottom="5px">
+                <shape>
+                    <stroke android:width="0.5dp" android:color="@color/color_black" />
+                    <padding android:bottom="5dp" />
+                    <gradient android:angle="270" android:endColor="@color/color_white" android:startColor="@color/color_white" />
+                    <corners android:radius="19dp" />
+                    <padding android:bottom="10dp" android:left="10dp" android:right="5dp" android:top="10dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <item android:state_pressed="true">
+        <layer-list>
+            <!-- SHADOW -->
+            <item>
+                <shape>
+                    <solid android:color="@color/color_label" />
+                    <corners android:radius="19dp" />
+
+                </shape>
+            </item>
+            <!-- BUTTON -->
+            <item android:bottom="5px">
+                <shape>
+                    <padding android:bottom="5dp" />
+                    <gradient android:angle="270" android:endColor="@color/color_gold" android:startColor="@color/color_label" />
+                    <corners android:radius="19dp" />
+                    <padding android:bottom="10dp" android:left="10dp" android:right="5dp" android:top="10dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>
